@@ -1,5 +1,7 @@
 # 👶 IVF Live-Birth Prediction
 
+[![CI](https://github.com/youngjibzy1/ivf-live-birth-prediction/actions/workflows/ci.yml/badge.svg)](https://github.com/youngjibzy1/ivf-live-birth-prediction/actions)
+
 > Machine-learning prediction of live-birth occurrence **before** IVF treatment — the open-source companion to my [Nature Scientific Reports paper](https://www.nature.com/articles/s41598-020-78937-8) on the same question. Gradient boosting + logistic-regression baseline, strict train/test protocol, cross-validation, clinical operating-point analysis.
 
 Because real IVF cohorts are clinic-private, the repo ships a **biologically-calibrated synthetic cohort generator** with realistic feature relationships (age, AMH, FSH, AFC, blastocysts, prior failures, diagnosis, sperm metrics) and a documented schema so **your own CSV data drops in unchanged**.
